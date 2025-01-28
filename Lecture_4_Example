@@ -1,0 +1,10 @@
+def total_cost(price: int, tax_rate: float) -> float:
+    return price + (price * tax_rate)
+
+
+print(total_cost(price=100, tax_rate=0.07))
+
+print(int(2.0) + 0 / int(3.4))
+print(str(1.5))
+print(float(str(1.5)))
+print(str("7.0" + "7.0"))

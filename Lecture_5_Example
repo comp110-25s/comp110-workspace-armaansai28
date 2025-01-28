@@ -1,0 +1,10 @@
+def is_21(age: int) -> bool:
+    """Return whether age is at least 21"""
+    print("in is_21's function body")
+    return age == 21 or age > 21
+
+
+def birthday(age: int) -> int:
+    """Inreases age by 1."""
+    print("in birthday's function body")
+    return age + 1

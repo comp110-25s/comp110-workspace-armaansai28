@@ -1,0 +1,14 @@
+def celsius_to_fahrenheit(degrees: int) -> float:
+    """Calculates celcuius to farenheit"""
+    return (degrees * 9 / 5) + 32
+
+
+print(celsius_to_fahrenheit(degrees=0))
+
+
+def perimeter(length: float, width: float) -> float:
+    """Calulate the perimiter of a rectangle"""
+    return length + length + width + width
+
+
+print(perimeter(length=10.0, width=8.0))
